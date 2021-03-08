@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('construir Iamgen'){
             steps{
-                sh "docker build . -t pedrox19766/nodeapp:${DOCKER_TAG}"
+                sh "docker build . -t /home/debian/myproyecto/node-app:${DOCKER_TAG}"
             }
         }   
      }
